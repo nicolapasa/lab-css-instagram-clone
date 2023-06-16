@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background: white url('../images/bgtile.png') repeat-x;
+}
+
+header{
+  margin: 3rem auto;
+  margin-top: 7rem;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+
+
+.frame{
+  display: block;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding:0.5rem 1rem;
+}
+
+.phones{
+ 
+  width:250px
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: #1c5380;
+  color:rgb(232, 228, 228);
+  font-weight: bold;
+  border: none;
+  padding:0.5rem;
+}
+.logo img{
+
+}
+.frame h1{
+   font-size: 1.5rem;
+   width: 80%;
+   padding: 0;
+}
+
+.frame p{
+  font-size: 0.8rem;
+  width: 90%;
+}
+
+.badges{
+   display: flex;
+   width: 80%;
+   margin: 0 auto;
+   justify-content: space-around;
+}
+
+footer{
+  margin: 0 auto;
+  width:100%;
+  text-align: center;
+}
+
+ul{
+  margin:0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+ul li{
+  color: #1c5380;
+  font-size: 0.5rem;
+}
+
+.copy{
+  margin: 0 auto;;
+  width:60%;
+  display: flex;
+  font-size: 0.5rem;
 }
